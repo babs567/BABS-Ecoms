@@ -30,7 +30,7 @@ export const getOneProduct = async (slugTitle) => {
 };
 
 export const getAllProducts = async () => {
-  const res = await instance.get(`/api/v1/products`);
+  const res = await instance.get(`/api/v1/products/allproducts`);
 
   return res;
 };
@@ -55,20 +55,19 @@ export const dislikeProduct = async (productId, userId, token) => {
   return res;
 };
 
-
-export const deleteProduct = async (productId, token)=> {
+export const deleteProduct = async (productId, token) => {
   const res = await instance.delete(`/api/v1/products/delete/${productId}`, {
     headers: { Authorization: `Bearer ${token}` },
-  })
-  return res
-}
+  });
+  return res;
+};
 
-export const searchProduct = async(searchQuery) => {
+export const searchProduct = async (searchQuery) => {
   const res = await instance.get(
     `/api/v1/product/search/product?q=${searchQuery}`
-  )
-  return res
-}
+  );
+  return res;
+};
 
 export const registerUser = async (username, email, password) => {
   const res = await instance.post("/api/v1/auth/register", {
@@ -156,8 +155,8 @@ export const uploadToCloudinary = async (file) => {
 };
 
 export const getAllOrders = async (token) => {
-  const res = await instance.get('/api/order', {
+  const res = await instance.get("/api/v1/orders", {
     headers: { Authorization: `Bearer ${token}` },
-  })
-  return res
-}
+  });
+  return res;
+};

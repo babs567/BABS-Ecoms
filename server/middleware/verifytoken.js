@@ -4,7 +4,6 @@ export const verifyToken = async (req, res, next) => {
   try {
     //access authorize header to validate request
     const token = req.headers.authorization.split(" ")[1];
-    console.log(token);
     //to retrieve a token for the logged in user and verify
     const decodedToken = jwt.verify(token, process.env.JWT_SECRET);
     req.user = decodedToken;

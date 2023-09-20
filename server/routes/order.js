@@ -10,7 +10,7 @@ router.post('/create', verifyToken, createOrder)
 //get
 router.get('/user', verifyToken, getUserOrders)
 router.get('/', verifyToken, getAllOrders)
-router.get('/id', verifyToken, getOrderDetail)
+router.get('/:id', verifyToken, getOrderDetail)
 
 //put
 router.put('/:id/tracking', verifyToken, trackOrders)

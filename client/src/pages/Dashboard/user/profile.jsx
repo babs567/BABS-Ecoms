@@ -27,7 +27,7 @@ export default function Profile() {
     <div>
       {loading && <Loader />}
       <Row className="align-items-center justify-content-around gy-2">
-        <Col md={12} className="text-center text-lg-start mb-4">
+        <Col md={12} className="text-center mb-4">
           <Image
             src={data?.profileiImg}
             className="rounded-circle object-fit-cover mb-4 shadow"
