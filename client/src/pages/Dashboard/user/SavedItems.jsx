@@ -43,7 +43,7 @@ export default function SavedItems() {
   useEffect(() => {
     document.title = `${currentUser?.user?.username} saved items`;
   }, [currentUser?.user?.username]);
-  console.log("saved", data);
+
   error && <p className="mt-5 fs-5">{error.message}</p>;
   return (
     <>
