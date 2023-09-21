@@ -8,10 +8,10 @@ import Shoporders from "./Dashboard/Admin/Shoporders";
 import ManageProduct from "./Dashboard/Admin/ManageProduct";
 import CreateProduct from "./Dashboard/Admin/CreateProduct";
 import Search from "./Search";
-import Orders from './Dashboard/User/Orders'
-import OrderId from './Dashboard/User/OrderId'
-import SavedItems from './Dashboard/User/SavedItems'
-import Profile from './Dashboard/User/Profile'
+import Orders from "./Dashboard/User/Orders";
+import OrderId from "./Dashboard/User/OrderId";
+import SavedItems from "./Dashboard/User/SavedItems";
+import Profile from "./Dashboard/User/Profile";
 
 export {
   Home,
@@ -27,5 +27,5 @@ export {
   Orders,
   OrderId,
   SavedItems,
-  Profile
+  Profile,
 };

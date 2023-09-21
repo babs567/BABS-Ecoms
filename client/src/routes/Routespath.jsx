@@ -7,7 +7,6 @@ import {
   Bag,
   Checkout,
   Account,
-  Orders,
   SavedItems,
   Profile,
   ManageProduct,
@@ -15,6 +14,7 @@ import {
   Search,
   Shoporders,
   OrderId,
+  Orders,
 } from "../pages";
 import ProtectedRoutes from "./ProtectedRoutes";
 import Categories from "../pages/Categories";
