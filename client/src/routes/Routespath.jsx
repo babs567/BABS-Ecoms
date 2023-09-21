@@ -14,11 +14,11 @@ import {
   CreateProduct,
   Search,
   Shoporders,
+  OrderId,
 } from "../pages";
 import ProtectedRoutes from "./ProtectedRoutes";
 import Categories from "../pages/Categories";
 import { Root, Error } from "../components";
-import OrderId from '../pages/Dashboard/User/OrderId'
 
 export default function Routespath() {
   const router = createBrowserRouter([

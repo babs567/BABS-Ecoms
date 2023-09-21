@@ -9,7 +9,7 @@ import ManageProduct from "./Dashboard/Admin/ManageProduct";
 import CreateProduct from "./Dashboard/Admin/CreateProduct";
 import Search from "./Search";
 import Orders from './Dashboard/User/Orders'
-// import OrderId from './Dashboard/User/OrderId'
+import OrderId from './Dashboard/User/OrderId'
 import SavedItems from './Dashboard/User/SavedItems'
 import Profile from './Dashboard/User/Profile'
 
@@ -25,7 +25,7 @@ export {
   CreateProduct,
   Search,
   Orders,
-  // OrderId,
+  OrderId,
   SavedItems,
   Profile
 };
