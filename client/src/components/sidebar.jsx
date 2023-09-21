@@ -83,7 +83,7 @@ export default function Sidebar() {
                         to={`account/${item.path}`}
                         className={({ isActive }) =>
                           isActive
-                            ? "text-success fw-bold fs-6"
+                            ? "text-success fw-bold fs-5"
                             : "text-black fw-medium"
                         }
                         onClick={handleClose}
