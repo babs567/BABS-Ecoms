@@ -5,7 +5,7 @@ import useFetchData from "../../../hooks/fetchData";
 import { Link, Outlet, useLocation, useParams } from "react-router-dom";
 import { getUserOrders } from "../../../config/api";
 
-export default function Orders() {
+export default function Order() {
   const { username } = useParams();
   const { currentUser } = useStore();
   const location = useLocation();

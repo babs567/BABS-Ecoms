@@ -14,7 +14,7 @@ import {
   Search,
   Shoporders,
   OrderId,
-  Orders,
+  Order,
 } from "../pages";
 import ProtectedRoutes from "./ProtectedRoutes";
 import Categories from "../pages/Categories";
@@ -25,7 +25,7 @@ export default function Routespath() {
     {
       path: "/",
       element: <Root />,
-      errorElement: <Error/>,
+      errorElement: <Error />,
       children: [
         {
           path: "/",
@@ -69,7 +69,7 @@ export default function Routespath() {
           children: [
             {
               path: ":username/orders",
-              element: <Orders />,
+              element: <Order />,
               children: [
                 {
                   path: ":orderId",
