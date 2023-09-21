@@ -4,7 +4,7 @@ import ProductDetails from "./ProductDetails";
 import Bag from "./Bag";
 import Checkout from "./Checkout";
 import Account from "./Dashboard/Account";
-import Orders from "./Dashboard/User/Orders";
+import Orders from "./Dashboard/User/orders";
 import SavedItems from "./Dashboard/User/SavedItems";
 import OrderId from "./Dashboard/User/OrderId";
 import Profile from "./Dashboard/User/Profile";
@@ -26,28 +26,5 @@ export {
   Shoporders,
   ManageProduct,
   CreateProduct,
-  Search
+  Search,
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
