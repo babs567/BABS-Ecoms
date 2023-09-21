@@ -8,7 +8,7 @@ import { formatCurrency } from "../../../utils/formatCurrency";
 import { getOrderDetail } from "../../../config/api";
 import { format } from "timeago.js";
 
-export default function OrderId() {
+export default function OrderID() {
   const { orderId } = useParams();
   const [isPay, setNotpay] = useState();
   const { currentUser } = useStore();
