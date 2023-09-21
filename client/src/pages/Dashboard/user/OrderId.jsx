@@ -17,7 +17,6 @@ export default function OrderID() {
     orderId,
     currentUser?.access_token
   );
-  console.log("orderId", data);
 
   useEffect(() => {
     document.title = `Your order ${data?._id}`;
@@ -29,7 +28,7 @@ export default function OrderID() {
     track === 0 ? setNotpay("Preparing") : "";
     track === 1 ? setNotpay("On the way") : "";
     track === 2 ? setNotpay("Delivered") : "";
-  }, []);
+  }, [track]);
   return (
     <>
       {loading ? (
@@ -141,67 +140,6 @@ export default function OrderID() {
   );
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // import { useState, useEffect } from "react";
 // import { useParams } from "react-router-dom";
 // import { useStore } from "../../../config/store";
@@ -231,7 +169,7 @@ export default function OrderID() {
 
 //   useEffect(()  => {
 //     track === 0 ? setNotPay('Preparing')
-//   }       
+//   }
 //   )
 //   return (
 //     <>
