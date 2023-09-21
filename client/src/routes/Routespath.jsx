@@ -13,7 +13,7 @@ import {
   CreateProduct,
   Search,
   Shoporders,
-  OrderID,
+  Orderdetail,
   Order,
 } from "../pages";
 import ProtectedRoutes from "./ProtectedRoutes";
@@ -73,7 +73,7 @@ export default function Routespath() {
               children: [
                 {
                   path: ":orderId",
-                  element: <OrderID />,
+                  element: <Orderdetail />,
                 },
               ],
             },
