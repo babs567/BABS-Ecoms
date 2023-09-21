@@ -3,15 +3,15 @@ import Collections from "./Collections";
 import ProductDetails from "./ProductDetails";
 import Bag from "./Bag";
 import Checkout from "./Checkout";
-import Account from "./Dashboard/Account";
-import Shoporders from "./Dashboard/Admin/Shoporders";
-import ManageProduct from "./Dashboard/Admin/ManageProduct";
-import CreateProduct from "./Dashboard/Admin/CreateProduct";
+import Account from "./DashBoard/Account";
+import Shoporders from "./DashBoard/Admin/Shoporders";
+import ManageProduct from "./DashBoard/Admin/ManageProduct";
+import CreateProduct from "./DashBoard/Admin/CreateProduct";
 import Search from "./Search";
-import Orderdetail from "./Dashboard/User/Orderdetail";
-import SavedItem from "./Dashboard/User/SavedItem";
-import Profile from "./Dashboard/User/Profile";
-import Order from "./Dashboard/User/Order";
+import Orderdetail from "./DashBoard/User/Orderdetail";
+import SavedItem from "./DashBoard/User/SavedItem";
+import Profile from "./DashBoard/User/Profile";
+import Order from "./DashBoard/User/Order";
 
 export {
   Home,
