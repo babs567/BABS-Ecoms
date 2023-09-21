@@ -8,7 +8,6 @@ import {
   Checkout,
   Account,
   Orders,
-  OrderId,
   SavedItems,
   Profile,
   ManageProduct,
@@ -19,6 +18,7 @@ import {
 import ProtectedRoutes from "./ProtectedRoutes";
 import Categories from "../pages/Categories";
 import { Root, Error } from "../components";
+import OrderId from '../pages/Dashboard/User/OrderId'
 
 export default function Routespath() {
   const router = createBrowserRouter([
