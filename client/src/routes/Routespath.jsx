@@ -7,7 +7,7 @@ import {
   Bag,
   Checkout,
   Account,
-  SavedItems,
+  SavedItem,
   Profile,
   ManageProduct,
   CreateProduct,
@@ -79,7 +79,7 @@ export default function Routespath() {
             },
             {
               path: ":username/saveditems",
-              element: <SavedItems />,
+              element: <SavedItem />,
             },
             {
               path: "user-profile/:username",

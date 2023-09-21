@@ -9,7 +9,7 @@ import { formatCurrency } from "../../../utils/formatCurrency";
 import { toast } from "react-hot-toast";
 import { getSavedProducts, dislikeProduct } from "../../../config/api";
 
-export default function SavedItems() {
+export default function SavedItem() {
   const { currentUser, increaseCartQty } = useStore();
   const { username } = useParams();
   const { error, data, loading } = useFetchData(
